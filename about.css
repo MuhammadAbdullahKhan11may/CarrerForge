@@ -204,23 +204,43 @@
   .about-container {
     grid-template-columns: 1fr;
     padding: 0 24px;
-    gap: 34px;
+    gap: 22px;
+  }
+
+  .about-content,
+  .about-visual {
+    display: contents;
+  }
+
+  .about-badge {
+    order: 1;
   }
 
   .about-title {
+    order: 2;
     font-size: 2.1rem;
   }
 
   .about-text {
+    order: 3;
     max-width: 100%;
   }
 
-  .about-visual {
-    order: -1;
+  .about-photo {
+    order: 4;
   }
 
   .about-stats {
+    order: 5;
     gap: 12px;
+  }
+
+  .about-points {
+    order: 6;
+  }
+
+  .mission-card {
+    order: 7;
   }
 
   .mission-card {
