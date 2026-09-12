@@ -119,11 +119,11 @@
 
 /* ============ RESPONSIVE ============ */
 @media (max-width: 960px) {
-  .features {
+    .features {
     padding: 40px 0 60px;
     background-image: url("images/mobile-feature-section.png");
     background-position: top center;
-    background-size: cover;
+    background-size: contain;
   }
 
   .features-container {
@@ -142,20 +142,29 @@
     font-size: 0.95rem;
   }
 
-  .features-grid {
+    .features-grid {
     grid-template-columns: 1fr;
     gap: 16px;
     min-height: auto;
-    padding-bottom: 700px;
   }
 
   .features-col-right {
     grid-column: 1;
   }
 
-  .feature-item {
+    .feature-item {
     background: rgba(6, 10, 19, 0.6);
     backdrop-filter: blur(6px);
+    padding: 16px 18px;
+  }
+
+  .feature-item h3 {
+    font-size: 0.92rem;
+  }
+
+  .feature-item p {
+    font-size: 0.82rem;
+    line-height: 1.5;
   }
 
   .features-strip {
