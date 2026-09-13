@@ -200,7 +200,7 @@ a {
   padding-top: 76px;
   overflow: hidden;
   background-image:
-    linear-gradient(90deg, rgba(6, 10, 19, 0.94) 0%, rgba(6, 10, 19, 0.75) 45%, rgba(6, 10, 19, 0.35) 100%),
+    linear-gradient(90deg, rgba(6, 10, 19, 0.88) 0%, rgba(6, 10, 19, 0.55) 45%, rgba(6, 10, 19, 0.1) 100%),
     url("images/desktop-hero-section.png");
   background-repeat: no-repeat;
   background-position: center;
